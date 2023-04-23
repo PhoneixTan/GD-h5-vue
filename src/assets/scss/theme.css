@@ -1,0 +1,58 @@
+@import './default-theme.css';
+
+:root {
+	/* Color Palette */
+	--van-gray-9: #eeeeee;
+	--van-gray-10: #bdbdbd;
+	--van-gray-11: #cccccc;
+	--van-blue-1: #008fff;
+	--van-blue-2: #3296fb;
+	--van-orange-1: #f27623;
+
+	/* --------------------------------------------- */
+	/* tabbar height */
+	--van-tabbar-height: 50px;
+
+	/* --------------------------------------------- */
+	/* input 背景色*/
+	--input-background-color: #f4f4f4;
+
+	/* --------------------------------------------- */
+	/* 浙里办主题 */
+
+	/* 圆角*/
+	--zlb-radius-r5: 10px;
+	--zlb-radius-r6: 12px;
+	--zlb-radius-r7: 14px;
+	--zlb-radius-r8: 16px;
+	--zlb-radius-r9: 18px;
+
+	/* --------------------------------------------- */
+	/* 字体颜色 */
+	--van-text-color-4: #7897ba;
+	--van-text-color-5: #232d2d;
+	/*--van-text-size2: 18px;*/
+
+	/* --------------------------------------------- */
+	/* 字体 */
+	/*已有字体，可以不用覆写*/
+	--van-font-size-xs: 10px;
+	--van-font-size-sm: 12px;
+	--van-font-size-md: 14px;
+	--van-font-size-lg: 16px;
+	/*追加一个超大号字体*/
+	--van-font-size-ml: 18px;
+
+	/* --------------------------------------------- */
+	/*输入框样式*/
+	--van-field-label-color: var(--van-text-color);
+	--van-field-placeholder-text-color: var(--van-text-color-3);
+
+	/* --------------------------------------------- */
+	/*输入框样式*/
+	/*--van-uploader-size: 69px;*/
+	/*--van-uploader-delete-icon-size: 18px;*/
+
+	--title-bar-height: 50px;
+	--title-bar-padding-top: 0;
+}

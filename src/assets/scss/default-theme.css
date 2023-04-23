@@ -1,0 +1,99 @@
+/**
+ * 全局主题样式
+ */
+
+:root {
+    /* --------------------------------------------- */
+    /*调色板*/
+    --van-primary-color: #428ffc;
+    /* 反馈功能色*/
+    --van-green: #00b578;
+    --van-orange: #ff6a2a;
+    --van-red: #e63633;
+    /*其他颜色*/
+    --van-black: #000;
+    --van-white: #fff;
+    --van-gray-1: #fafafa;
+    --van-gray-2: #f2f3f5;
+    --van-gray-3: #ebedf0;
+    --van-gray-4: #dcdee0;
+    --van-gray-5: #c8c9cc;
+    --van-gray-6: #999999;
+    --van-gray-7: #666666;
+    --van-gray-8: #333333;
+    --van-blue: #1989fa;
+    --van-orange-dark: #ed6a0c;
+    --van-orange-light: #fffbe8;
+
+    /*组件颜色*/
+    --van-text-color: var(--van-gray-8);
+    --van-text-color-2: var(--van-gray-7);
+    --van-text-color-3: var(--van-gray-6);
+    --van-success-color: var(--van-green);
+    --van-danger-color: var(--van-red);
+    --van-warning-color: var(--van-orange);
+    --van-text-link-color: #576b95;
+    --van-active-color: var(--van-gray-2);
+    --van-active-opacity: 0.6;
+    --van-disabled-opacity: 0.5;
+    --van-background-color: var(--van-gray-1);
+    --van-background-color-light: var(--van-white);
+
+    /* --------------------------------------------- */
+    /* 浙里办主题 */
+    --zlb-space-s1: 4px;
+    --zlb-space-s2: 8px;
+    --zlb-space-s3: 12px;
+    --zlb-space-s4: 16px;
+    --zlb-space-s5: 20px;
+    --zlb-space-s6: 24px;
+
+    /* 圆角*/
+    --zlb-radius-r1: 2px;
+    --zlb-radius-r2: 4px;
+    --zlb-radius-r3: 6px;
+    --zlb-radius-r4: 8px;
+
+    /* --------------------------------------------- */
+    /* login */
+    --login-background-color: #248c86;
+
+    /* --------------------------------------------- */
+    /* checkbox */
+    --van-checkbox-size: 16px;
+    --van-checkbox-border-color: #d9d9d9;
+    --van-checkbox-checked-icon-color: #428ffc;
+
+    /* --------------------------------------------- */
+    /* tabbar */
+    --van-tabbar-item-text-color: #353b45;
+    --van-tabbar-item-active-color: #428ffc;
+    --van-tabbar-height: 50px;
+
+    /*  Button  */
+    --van-button-border-radius: 8px;
+
+    /* --------------------------------------------- */
+    /*  Result  */
+    --zlb-result-color-success: var(--van-green);
+    --zlb-result-color-fail: var(--van-orange);
+    --zlb-result-color-error: var(--van-red);
+    --zlb-result-color-wait: #9fccff;
+
+    /*	CellGroup */
+    --van-cell-group-inset-padding: var(--zlb-space-s4) var(--van-padding-md) 0 var(--van-padding-md);
+    --van-cell-border-color: #eeeeee;
+
+    /* --------------------------------------------- */
+    /*uploader*/
+    --van-uploader-size: 93px;
+    --van-uploader-border-radius: 6px;
+    --van-uploader-delete-icon-size: 24px;
+    /* 图片行间距 */
+    --van-uploader-item-margin: 0 10px 10px 0;
+
+    /* --------------------------------------------- */
+    /*toolbar*/
+    --title-bar-height: 68px;
+    --title-bar-padding-top: 16px;
+}

@@ -1,0 +1,9 @@
+/*引入第三方字体文件*/
+@font-face {
+    /*名字*/
+    font-family: "PangMenzhengDao";
+    /*路径*/
+    src: url("./PangMenZhengDao.ttf");
+    font-weight: normal;
+    font-style: normal;
+}

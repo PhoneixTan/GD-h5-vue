@@ -1,0 +1,53 @@
+//sass常用混合器(应该合理使用)
+// 弹性布局混合器
+@mixin flexMixer($justify: center, $align: center, $flex: row) {
+	// 申明为弹性盒子
+	display: flex;
+	// 排列方式
+	flex-direction: $flex;
+	// 主（副）轴的对齐方式
+	justify-content: $justify;
+	// 主（副）轴的对齐方式
+	align-items: $align;
+}
+// 定位混合器
+@mixin positionMixer($position: static, $left: auto, $top: auto, $right: auto, $bottom: auto) {
+	position: $position;
+	left: $left;
+	top: $top;
+	right: $right;
+	bottom: $bottom;
+}
+// 浮动混合器
+@mixin floatMixer($float: left) {
+	float: $float;
+}
+// 设置背景混合器
+@mixin bgMixer($url, $position: center center, $size: 100% 100%, $repeat: no-repeat) {
+	background: $url $repeat $position;
+	background-size: $size;
+}
+// 宽高混合器
+@mixin widthMixer($width: 100px, $height: 100px) {
+	width: $width;
+	height: $height;
+}
+// 文字混合器
+@mixin fontMixer($fontSize: 16px, $color: #515a6e, $weight: 500, $font-familyt: Source Han Sans SC) {
+	font-family: $font-familyt;
+	font-size: $fontSize;
+	font-weight: $weight;
+	color: $color;
+}
+
+// 多行字体省略混合器
+@mixin pointMixer($line: 2) {
+	overflow: hidden;
+	word-break: break-all;
+	white-space: normal;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: $line;
+	line-clamp: $line;
+	-webkit-box-orient: vertical;
+}

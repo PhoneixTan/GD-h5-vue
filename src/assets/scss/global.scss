@@ -1,0 +1,48 @@
+// 一些其他的公共样式
+@import "mixin.scss";
+/*公共样式*/
+.page {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden scroll;
+	background: var(--van-gray-1);
+	box-sizing: border-box;
+
+	// 子元素高度问题处理
+	.page > * {
+		flex: 0 0 auto;
+	}
+}
+
+/*占位*/
+.spacer {
+	flex: 1 1 auto;
+}
+
+.spacer-2 {
+	flex: 2 1 auto;
+}
+
+/**
+积分明细、兑换记录标题样式
+ */
+.integral-head {
+	@include fontMixer(var(--van-font-size-lg), #251d16, bold);
+	@include flexMixer();
+	&:before {
+		content: '';
+		display: inline-block;
+		@include widthMixer(20px, 2px);
+		background-color: #251d16;
+		margin-right: 6px;
+	}
+	&:after {
+		content: '';
+		display: inline-block;
+		@include widthMixer(20px, 2px);
+		background-color: #251d16;
+		margin-left: 6px;
+	}
+}
